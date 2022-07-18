@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Nuosu+SIL&display=swap');
+body{
+    background-color: beige;
+}
+img{
+    float: right;
+    max-width: 350px;
+    height:800;
+}
+.input-container {
+    position: fixed;
+    display: flex;
+    background-color: rgb(255, 241, 250);
+    position: absolute;
+    border: none;
+    border-radius: 20px;
+    margin: 100px;
+    top: 40rem;
+}
+.input-container input:focus, .input-container input:active {
+    outline: none;
+}
+.input-container input {
+    border: none;
+}
+.base{
+    margin: 100px;
+}
+p{
+    color: pink;
+    font-style: oblique;
+    position: absolute;
+    bottom: 5px;
+    width: 400px;
+}
+span{
+    color: pink;
+}
+h1{
+    font-size: 3rem;
+}
+h3{
+    top: 0%;
+   font-style: normal;
+}
