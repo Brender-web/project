@@ -1,0 +1,57 @@
+/*body{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}*/
+.gallery{
+    height: 5vh;
+    margin: 10px;
+    border-radius: 50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex: 0.5;
+    position: relative;
+    cursor: pointer;
+    transition: all 1000ms ease-in;
+    
+}
+.gallery.active{
+    height: 70vh;
+}
+.gallery.gallery.active h2{
+    opacity: 1;
+    transition: opacity 1s ease-in 1.2s;
+}
+
+.gallery h2{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    opacity: 1;
+    color: white;
+}
+.container{
+    height: 95vh;
+}
+
+#image-1{
+    background-image: url(./img-1.jpg);
+}
+
+#image-2{
+    background-image: url(./img-3.jpg);
+}
+
+#image-3{
+    background-image: url(./img-3\ \(1\).jpg);
+}
+
+#image-4{
+    background-image: url(./p.jpg.jpg);
+}
+
+#image-5{
+    background-image: url(./f.jpg);
+}
