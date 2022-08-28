@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    margin: 0 auto;
+    padding: 3rem;
+}
+.main {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    
+ }
+
+    .row {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .column {
+        flex: 1;
+        text-align: center;
+    }
+    img {
+        width: 450px;
+        padding: 1rem;
+    }
+    
+  hr {
+    height: 0.5rem;
+    background-color: white;
+    border-style: none;
+  }
+  .green {
+    color: green
+  }
+  .red {
+    color: red;
+}
+.orange {
+    color: orange;
+}        
+h2 {
+    color: white;
+}
+
+button {
+    padding: 1rem 3rem;
+}
+button:hover {
+    color: red;
+}
